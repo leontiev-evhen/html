@@ -1,0 +1,219 @@
+body {
+    font: normal 14px/20px Arial, Helvetica, sans-serif;
+    background: url("../images/bg.jpg");
+
+}
+
+p {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.ml-5 {
+    margin-left: 5%;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+/*========================= header ===================================*/
+
+.header {
+    background: #fff;
+	border-radius: 5px 5px 0 0;
+}
+
+.header li a {
+    color: #ADADAD;
+}
+
+.header li.active a {
+    color: #6DC4DB;
+}
+
+
+.header li a:after {
+    content: '|';
+    color: #E5E5E5;
+    padding-left: 20px;
+}
+
+div.header li:last-child > a:after {
+    content: '';
+}
+
+.header .icon-bar {
+	background: #fff;
+}
+
+div.header ul > li > a:hover {
+	color: #6DC4DB; 
+	background: none;
+}
+
+div.header .navbar-toggle {
+	background: #48b2e6;
+}
+
+
+/*========================= slider ===================================*/
+
+.slider {
+    background: #f4f4f4;
+}
+
+
+.slider h3 {
+    color: #819EA3;
+}
+
+.slider h2 {
+    color: #013D48;
+    font-weight: bold;
+    font-size: 39px;
+}
+
+.slider p {
+    color: #A0A0A0;
+	font-size: 15px;
+}
+
+.slider button {
+    color: #fff;
+    background: #F57362;
+    text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+
+/*========================= blue_block ===================================*/
+
+.blue_block {
+    background: #6DC4DB;
+}
+
+.blue_block h4 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.blue_block p, a {
+    color: #fff;
+}
+
+.blue_block .arrow {
+    padding-left: 10px;
+}
+
+.blue_block .img_icon {
+	background: url('../images/col_pic_slider.png') no-repeat;
+	width: 63px;
+	height: 63px;
+	background-size: cover;
+	margin-top: 13px;
+}
+
+.blue_block .img_flag {
+	background-position: 0 0;
+}
+
+.blue_block .img_photo {
+	background-position: -63px 0;
+}
+
+.blue_block .img_house {
+	background-position: -126px 0;
+}
+
+/*========================= main ===================================*/
+
+.main {
+    background: #fff;
+}
+
+.main .reviews {
+    background: #EAEAEA;
+    margin-right: 25px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.main .reviews p {
+    color: #A0A0A0;
+}
+
+.main .reviews a {
+    color: #F57362;
+    font-weight: bold;
+}
+
+.main h4 {
+    color: #013D48;
+    font-weight: bold;
+}
+
+.main button {
+    color: #fff;
+    background: #F57362;
+    text-transform: uppercase;
+}
+
+
+/*========================= footer ===================================*/
+
+.footer {
+    background: #F57362;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h2 {
+    font-weight: bold;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
+/*========================= @media ===================================*/
+
+@media screen and (max-width: 736px) {
+	div.header li a::after {
+		content: '';
+	}
+	
+	.main .reviews {
+		margin-right: 0;
+	}
+}
